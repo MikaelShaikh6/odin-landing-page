@@ -84,7 +84,7 @@ button {
     color: #F9FAF8;
     border: none;
     border-radius: 6px;
-    padding: 8px 30px 8px 30px;
+    padding: 5px 30px 5px 30px;
     font-weight: 700;
 }
 
@@ -157,5 +157,36 @@ button {
 
 .author {
     font-weight: 900;
+    font-size: 24px;
     align-self: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 90px 200px 90px 200px;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up-2 {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
